@@ -1,0 +1,151 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    width: 100%;
+    height:100%;
+    background-color:rgb(223, 222, 241);
+    position: absolute;
+    font-family:sans-serif;
+    background-size: cover;
+    background: url(../img/camera_smoke_126548_1920x1080.jpg);
+    background-repeat:no-repeat;
+    background-size:100%, 100% ;
+    /* filter: brightness(50%); */
+}
+
+
+.form-wrapper{
+    margin: 5% auto;
+    width:fit-content;
+    background-color:rgba(255, 255, 255, 0.705);
+    border-radius:2px;
+    padding:10px 10px;
+    display: block;
+
+}
+.form-wrapper .header{
+    /* border:1px solid red; */
+    width:100%;
+    margin-top:-10px;
+    margin-left: -1px;
+
+
+}.form-wrapper .header img{
+    position: relative;
+    width:65vh;
+
+}
+
+form h1{
+    text-transform: capitalize;
+    font-size:25px;
+    background: rgb(150, 114, 233);
+    text-align:center;
+    font-family:sans-serif;
+    padding: 10px 10px;
+    border-radius: 2px;
+    margin:20px auto;
+}
+form h2{
+    padding: 10px 10px;
+    margin:3px auto;
+}
+form{
+    display:block;
+    text-align:center;
+    /* border:1px solid red; */
+    padding:10px 10px;
+}
+form .row{
+   display: block;
+   margin: 20px 20px;
+
+}
+form .row .input{
+    border:1px solid rgba(0, 0, 0, 0.295);
+    display: inline-block;
+    border-radius: 2px;
+    margin:5px 15px;
+    background: rgb(203, 186, 241);
+}
+
+form .row .input i{
+    padding: 3px 5px;
+}
+
+form h2{
+    font-size:18px;
+    font-weight:normal;
+    color:rgb(38, 23, 245);
+
+}
+
+form .row input{
+    border:none;
+    font-size: 17px;
+    color: rgba(20, 20, 20, 0.904);
+    padding:5px 5px;
+    line-height: 25px;
+}
+form .row label{
+    border:none;
+    font-size: 16px;
+    color: rgba(20, 20, 20, 0.904);
+    padding:5px 5px;
+    line-height: 25px;
+}
+form .row select{
+    border:none;
+    font-size: 17px;
+    color: rgba(20, 20, 20, 0.904);
+    padding:5px -5px;
+    line-height: 20px;
+}
+
+form .login{
+    border-radius:2px;
+    padding:10px 15px;
+    border:none;
+    cursor: pointer;
+    margin-top: 20px ;
+    margin-right: -25rem ;
+    margin-bottom: 20px;
+    color:#ffff;
+    font-weight:bold;
+    font-size:16px;
+    text-transform:capitalize;
+    background-color:rgba(173, 34, 228, 0.938);
+    animation: fadeOut 1s;
+
+}
+form .login:hover{
+    animation: fadeIn 1s;
+    background-color:rgb(55, 4, 78);
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeOut{
+    form{
+        opacity:1;
+    }
+    to{
+        opacity:0.7;
+    }
+}
+.input a{
+    color: rgba(70, 70, 73, 0.815);
+    font-size:16px;
+    margin-top:-10px;
+    text-decoration: none;
+    font-weight:bold;
+}
+
