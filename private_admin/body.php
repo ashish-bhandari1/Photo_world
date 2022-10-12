@@ -1,6 +1,4 @@
 
-
-
 <?php include_once('common/header.php'); 
 
    $mysqli =  new mysqli('localhost','root','','photo_world');
